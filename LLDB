@@ -1,0 +1,25 @@
+
+https://lldb.llvm.org/use/map.html#examining-thread-state
+
+lldb -- a.out. - sets output doesn't run.
+
+run - start run program.will not break so should set break point before run
+
+breakpoint set -l 5
+
+
+
+
+/*** Thread ******/
+
+thread info
+thread list
+thread select #index
+thread backtrace
+thread return  = return from current frame
+
+
+
+//Variables
+frame variable
+frame variable --no-args
